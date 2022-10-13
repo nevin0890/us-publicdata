@@ -10,21 +10,16 @@
                             <th scope="col">Nation</th>
                             <th scope="col">Year </th>
                             <th scope="col">Population</th>
-                            
-
                         </tr>
                     </thead>
                     <tbody>
                         <tr *ngFor="let i of usdata.data">
                             <td>{{i.Nation}}</td>
                             <td>{{i.Year}}</td>
-                            <td>{{i.Population}}</td>
-                           
-                           
-                    
+                            <td>{{i.Population}}</td>                        
                     </tbody>
                     </table>
-                   
+                   {{usdata.totalPages}}
                 </div>
             </div>
         </div>
